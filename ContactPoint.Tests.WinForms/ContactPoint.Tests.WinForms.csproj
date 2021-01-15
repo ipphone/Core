@@ -7,7 +7,7 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <ItemGroup>
-    <PackageReference Include="Appium.WebDriver" Version="4.1.1" />
+    <PackageReference Include="Appium.WebDriver" Version="4.3.1" />
     <PackageReference Include="Castle.Core" Version="4.4.1" />
     <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.1.2" />
