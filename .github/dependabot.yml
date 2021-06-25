@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: MSTest.TestFramework
+    versions:
+    - 2.2.1
+    - 2.2.2
+  - dependency-name: MSTest.TestAdapter
+    versions:
+    - 2.2.1
+    - 2.2.2
+  - dependency-name: MahApps.Metro
+    versions:
+    - 2.4.3
+    - 2.4.4
+  - dependency-name: Microsoft.NET.Test.Sdk
+    versions:
+    - 16.8.3
+    - 16.9.1
+  - dependency-name: ControlzEx
+    versions:
+    - 4.4.0
