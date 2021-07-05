@@ -15,7 +15,7 @@
     <DebugType>pdbonly</DebugType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="ControlzEx" Version="3.0.2.4" />
+    <PackageReference Include="ControlzEx" Version="5.0.1" />
     <PackageReference Include="MahApps.Metro" Version="1.6.5" />
     <PackageReference Include="MahApps.Metro.Resources" Version="0.6.1.0" />
   </ItemGroup>
